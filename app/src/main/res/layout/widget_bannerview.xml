@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <arg.marshon.publiclibrary.autoviewpager.AutoScrollViewPager
+        android:id="@+id/autoViewpager"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/grey_word"
+        android:layout_width="wrap_content"
+        android:textSize="13sp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="6dp"
+        android:layout_height="wrap_content" />
+</FrameLayout>
