@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\anim_slide_in_right.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\anim_slide_in_right.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_fab_out.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\anim_slide_in_left.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\anim_slide_in_left.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_fab_in.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\anim_slide_out_left.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\anim_slide_out_left.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\anim_slide_out_right.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\anim_slide_out_right.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_out.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_in.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "F:\\WX\\LikequanmingTV\\MyQuanMingTV\\publiclibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_exit.xml"
+    }
+]
