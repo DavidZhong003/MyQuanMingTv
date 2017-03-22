@@ -24,18 +24,15 @@ import java.lang.reflect.Field;
 import javax.annotation.Nullable;
 
 
-
 /**
  * Created by MarshonIt on 2016/2/25 11:37
  *
  * @email itmarshon@126.com
  */
-public class BaseActivity
-        extends AppCompatActivity
-        implements BaseView {
-    protected int p=0;
+public class BaseActivity extends AppCompatActivity implements BaseView {
+    protected int p = 0;
 
-    protected BasePresenter mBasePresent =null;
+    protected BasePresenter mBasePresent = null;
 
     //资源文件
     public Resources mResources;
@@ -64,11 +61,11 @@ public class BaseActivity
 //                .build();
 //    }
 
-    public boolean isTranslateStatusBar(){
+    public boolean isTranslateStatusBar() {
         return false;
     }
 
-    public int getColorPrimary(){
+    public int getColorPrimary() {
         return R.color.colorPrimary;
     }
 
@@ -93,28 +90,28 @@ public class BaseActivity
     @Override
     public void startActivity(Intent intent) {
         super.startActivity(intent);
-        overridePendingTransition(R.anim.anim_slide_in_right,R.anim.anim_slide_out_left);
+        overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
     }
 
     @Override
     public void startActivityForResult(Intent intent, int requestCode) {
         super.startActivityForResult(intent, requestCode);
-        overridePendingTransition(R.anim.anim_slide_in_right,R.anim.anim_slide_out_left);
+        overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
     }
 
     @Override
     public void finish() {
         super.finish();
-        overridePendingTransition(R.anim.anim_slide_in_left,R.anim.anim_slide_out_right);
+        overridePendingTransition(R.anim.anim_slide_in_left, R.anim.anim_slide_out_right);
     }
 
     @Override
     protected void onDestroy() {
         AppActivityManager.getInstance().removeActivity(this);
         super.onDestroy();
-        if (mBasePresent!=null){
+        if (mBasePresent != null) {
             mBasePresent.onDestroy();
-            mBasePresent=null;
+            mBasePresent = null;
         }
 //        APP.getInstance().getLeakWather().watch(this);
         fixInputMethodManagerLeak(this);
@@ -176,7 +173,6 @@ public class BaseActivity
     }
 
 
-
     @Override
     protected void onResume() {
         super.onResume();
@@ -205,7 +201,7 @@ public class BaseActivity
 
     @Override
     public void showLongToast(String msg) {
-        Toast.makeText(APP.getContext(),msg, Toast.LENGTH_LONG).show();
+        Toast.makeText(APP.getContext(), msg, Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -227,26 +223,26 @@ public class BaseActivity
     @Override
     public void showAlert(String msg) {
         new AlertDialog.Builder(this)
-         .setTitle("提示")
-         .setMessage(""+msg)
-         	.setPositiveButton("确定", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    dialog.dismiss();
-                }
-            })
-            .setNegativeButton("取消", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    dialog.dismiss();
+                .setTitle("提示")
+                .setMessage("" + msg)
+                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                })
+                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
 
-                }
-            })
-         	.show();
+                    }
+                })
+                .show();
     }
 
-    protected void openActivity(Class clazz){
-        Intent intent = new Intent(this,clazz);
+    protected void openActivity(Class clazz) {
+        Intent intent = new Intent(this, clazz);
         startActivity(intent);
     }
 
